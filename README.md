@@ -9,8 +9,8 @@ Tags: pdf-translator deepseek immersive-reading academic-tools python
     它不是一个简单的翻译器，它重塑了你的阅读体验。
   </p>
 
-  <a href="https://github.com/你的用户名/PaperFlow/releases">
-    <img src="https://img.shields.io/github/v/release/你的用户名/PaperFlow?color=blue&style=flat-square" alt="Release">
+  <a href="https://github.com/Subwoofer91/PaperFlow/releases">
+    <img src="https://img.shields.io/github/v/release/Subwoofer91/PaperFlow?color=blue&style=flat-square" alt="Release">
   </a>
   <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/License-Freeware-green?style=flat-square" alt="License">
@@ -28,21 +28,23 @@ Tags: pdf-translator deepseek immersive-reading academic-tools python
 **PaperFlow 的解决方案：**
 利用 **MinerU** 强大的布局解析能力，结合 **DeepSeek** 的上下文理解能力，将 PDF 重构为**“优雅的 HTML 双语流”**。
 
-![软件运行截图](./assets/screenshot_main.png)
-*(建议在此处放一张：软件界面 + 生成后的 HTML 网页效果对比图)*
+![软件运行截图](<img width="1319" height="1012" alt="微信图片_20251208102316_1138_79" src="https://github.com/user-attachments/assets/bcbc320b-c47d-4b21-9d0a-85065e94cc2e" />
+)
+![HTML效果图](<img width="1460" height="2194" alt="微信图片_20251208114452_214_93" src="https://github.com/user-attachments/assets/4714eafc-e3f8-4f0b-aa6c-07f789be6783" />)
+
 
 ## ✨ 核心特性
 
 * **🧠 智能断句修复：** 哪怕 PDF 排版再烂，内置算法也能自动识别段落逻辑，让 DeepSeek 读懂完整的句子。
 * **📐 完美布局还原：** 基于视觉的解析引擎，保留所有 LaTeX 公式、图表、代码块，不错位、不乱码。
-* **📖 沉浸式双语：** 英文在上，中文在下（灰度显示），单栏流式布局，像读博客一样读论文。
+* **📖 沉浸式双语：** 英文在上，中文在下，单栏流式布局，像读博客一样读论文。
 * **📦 单文件封装：** 生成的 `.html` 文件内置了 CSS 和图片（Base64），无需联网，发给手机/平板也能直接看。
 * **🔒 数据隐私：** **BYOK 模式** (Bring Your Own Key)。软件运行在本地，直接与 DeepSeek API 通信，不经过任何第三方服务器。
 
 ## 🚀 快速开始
 
 ### 1. 下载软件
-请前往右侧的 [Releases 页面](https://github.com/你的用户名/PaperFlow/releases) 下载最新的 `PaperFlow.exe`。
+请前往右侧的 [Releases 页面](https://github.com/Subwoofer91/PaperFlow/releases) 下载最新的 `PaperFlow.exe`。
 *(注意：目前仅支持 Windows 10/11 系统)*
 
 ### 2. 获取 API Key
@@ -53,7 +55,7 @@ Tags: pdf-translator deepseek immersive-reading academic-tools python
 1.  双击运行 `PaperFlow.exe`。
 2.  粘贴你的 API Key。
 3.  拖入 PDF 文件，点击“开始转换”。
-4.  等待进度条跑完，同目录下会生成一份 `_bilingual.html` 文件。
+4.  等待进度条跑完，可选择目录生成一份 `_bilingual.html` 文件。
 
 > **⚠️ 关于杀毒软件误报：**
 > 由于本软件由 Python 打包且未购买昂贵的数字签名，Windows Defender 或 360 可能会误报病毒。
@@ -70,11 +72,11 @@ PaperFlow 目前处于早期 MVP 验证阶段，且使用了 Nuitka 编译以保
 ## 💬 反馈与交流
 
 这是一个由个人开发者（物理系本科生）维护的项目，难免有 Bug。
-* **Bug 反馈：** 请直接在 [Issues](https://github.com/你的用户名/PaperFlow/issues) 区提交。
+* **Bug 反馈：** 请直接在 [Issues](https://github.com/Subwoofer91/PaperFlow/issues) 区提交。
 * **功能建议：** 欢迎提出你想要的排版样式或功能！
 
 ---
 
 <p align="center">
-  Made with ❤️ by Lyu Zeren & Antigravity
+  Made with ❤️ by Subwoofer91
 </p>
